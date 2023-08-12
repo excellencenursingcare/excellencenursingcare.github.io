@@ -26,6 +26,10 @@ body {
     color: #fff;
   }
   
+  .apps
+  {
+    padding: 10px 0px;
+  }
   /* Hero Section */
   .hero {
     /* background-color: #148F77; */
