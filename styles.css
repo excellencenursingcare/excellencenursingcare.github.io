@@ -70,6 +70,11 @@ body {
     margin-bottom: 10px;
 }
 
+.logo
+{
+  max-width: 250px;
+}
+
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .card {
@@ -81,7 +86,13 @@ body {
     .card {
         width: 100%;
     }
-}
+    .landing-image img {
+      display: none;
+    }
+   .about .container , .contact .container {
+      padding: 10px 15px;
+    }
+  }
 
   /* Hero Section */
   .hero {
@@ -168,18 +179,18 @@ body {
 
   /* Sections */
   .container {
-    /* padding: 40px 0; */
+     padding: 40px 0; 
     
   }
   
   .container h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
   }
   
   .container p {
     font-size: 1.1rem;
-    line-height: 1.8;
+    line-height: 1.5;
     margin-bottom: 30px;
   }
   
@@ -198,6 +209,13 @@ body {
     background-color: #fff;
     color: #333;
   }
+
+  .about
+  {
+    background-color: #008ab0;
+    color: #fff;
+  }
+
   
   .contact h2 {
     color: #148F77;
