@@ -92,6 +92,11 @@ body {
    .about .container , .contact .container {
       padding: 10px 15px;
     }
+
+    .hero .container
+    {
+      display: block !important;
+    }
   }
 
   /* Hero Section */
